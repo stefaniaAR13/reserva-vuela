@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-patrones-reservas",
+  "version": "1.0.0",
+  "description": "Sistema de reservas de vuelos con patrones de diseño.",
+  "main": "src/app.ts",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0",
+    "@types/node": "^18.0.0",
+    "@types/express": "^4.17.0"
+  }
+}
